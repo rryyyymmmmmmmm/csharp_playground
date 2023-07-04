@@ -1,0 +1,1 @@
+public enum Hand {None ,Rock, Paper, Scisors}

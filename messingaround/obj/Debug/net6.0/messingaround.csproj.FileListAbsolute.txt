@@ -1,0 +1,15 @@
+C:\Users\rymle\Documents\csharping\messingaround\bin\Debug\net6.0\messingaround.exe
+C:\Users\rymle\Documents\csharping\messingaround\bin\Debug\net6.0\messingaround.deps.json
+C:\Users\rymle\Documents\csharping\messingaround\bin\Debug\net6.0\messingaround.runtimeconfig.json
+C:\Users\rymle\Documents\csharping\messingaround\bin\Debug\net6.0\messingaround.dll
+C:\Users\rymle\Documents\csharping\messingaround\bin\Debug\net6.0\messingaround.pdb
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.csproj.AssemblyReference.cache
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.AssemblyInfoInputs.cache
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.AssemblyInfo.cs
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.csproj.CoreCompileInputs.cache
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.dll
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\refint\messingaround.dll
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.pdb
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\messingaround.genruntimeconfig.cache
+C:\Users\rymle\Documents\csharping\messingaround\obj\Debug\net6.0\ref\messingaround.dll

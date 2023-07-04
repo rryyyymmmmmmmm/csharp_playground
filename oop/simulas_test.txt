@@ -1,0 +1,84 @@
+// See https://aka.ms/new-console-template for more information
+BoxState state;
+state=BoxState.Open;
+string stateString; 
+bool done=false;
+
+void Box(string s) {
+    switch (s) {
+        case "open":
+        
+        if(state==BoxState.Locked) {
+            System.Console.WriteLine("sorry, cant do that. the box is locked. unlock it first.");
+        } else if(state==BoxState.Open) {
+            System.Console.WriteLine("sorry, cant do that. box is already open. close it fitst.");
+        } else {
+            System.Console.WriteLine("the box has been opened successfully.");
+            state=BoxState.Open;
+            }
+        break;
+
+        case "close": if(state==BoxState.Locked) {
+            System.Console.WriteLine("sorry, cant do that. the box is already closed and locked. unlock it then open it first.");
+        } else if(state==BoxState.Closed) {
+            System.Console.WriteLine("sorry, cant do that. box is already closed. open it first.");
+        } else {
+            System.Console.WriteLine("the box has been closed successfully.");
+            state=BoxState.Closed;
+            }
+        break;
+
+        case "unlock": 
+        if(state==BoxState.Closed) {
+            System.Console.WriteLine("sorry, cant do that. the box is already unlocked. lock it first.");
+        } else if(state==BoxState.Open) {
+            System.Console.WriteLine("sorry, cant do that. box is already open. close it then lock it first.");
+        } else {
+            System.Console.WriteLine("the box has been unlocked successfully.");  
+            state=BoxState.Closed;               
+            }
+        break;
+
+        case "lock": 
+        if(state==BoxState.Locked) {
+            System.Console.WriteLine("sorry, cant do that. the box is already closed and locked. unlock it first.");
+        } else if(state==BoxState.Open) {
+            System.Console.WriteLine("sorry, cant do that. box is already open. close it first.");
+        } else {
+            System.Console.WriteLine("the box has been locked successfully.");            
+            state=BoxState.Locked;
+            }
+        break;
+        
+        case "stop":
+            done=true;
+        break;
+
+        default:
+        System.Console.WriteLine("i didn't understand what you tried to do");
+        System.Console.WriteLine("write : 'open' to open the box\n 'close' to close it \n'unlock' to unlock it\n and 'lock' to lock it");
+        break;
+    }
+
+
+}
+void Messages() {
+    switch (state) {
+        case BoxState.Open: System.Console.Write("\nbox is open. what do you wanna do? : ");
+        break;
+        case BoxState.Closed: System.Console.Write("\nbox is closed. what do you wanna do? : ");
+        break;
+        case BoxState.Locked: System.Console.Write("\nbox is locked. what do you wanna do? : ");
+        break;
+    }
+    }
+//main program
+System.Console.WriteLine("write : 'open' to open the box\n 'close' to close it \n'unlock' to unlock it\n and 'lock' to lock it");
+while(!done) {
+    Messages();
+    stateString=Console.ReadLine();
+    Box(stateString);
+ 
+}
+
+enum BoxState {Open, Closed, Locked};

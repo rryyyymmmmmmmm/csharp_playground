@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "J7tUF0V6hXeKC+s6PlbVAC6NeJ8KMGAgDfi1ZvMVKcW+K2c8nhnPYU2V76hV96Bb6QVT1BCLZdNpwIyVd5vKdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rymle\\Documents\\csharping\\rock_paper_scisors\\rock_paper_scisors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk\\5.0.0-pre.8\\opentk.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.compute\\5.0.0-pre.8\\opentk.compute.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.core\\5.0.0-pre.8\\opentk.core.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.graphics\\5.0.0-pre.8\\opentk.graphics.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.input\\5.0.0-pre.8\\opentk.input.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.mathematics\\5.0.0-pre.8\\opentk.mathematics.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.openal\\5.0.0-pre.8\\opentk.openal.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.redist.glfw\\3.3.8.30\\opentk.redist.glfw.3.3.8.30.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.windowing.common\\5.0.0-pre.8\\opentk.windowing.common.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.windowing.desktop\\5.0.0-pre.8\\opentk.windowing.desktop.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\5.0.0-pre.8\\opentk.windowing.graphicslibraryframework.5.0.0-pre.8.nupkg.sha512",
+    "C:\\Users\\rymle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

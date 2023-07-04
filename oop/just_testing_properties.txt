@@ -1,0 +1,55 @@
+/*Rectangle rectangle = new Rectangle(0,0);
+
+Console.WriteLine("give width");
+rectangle.Width=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("give height");
+rectangle.Height=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"rectangle of {rectangle.Width} x {rectangle.Height} has an area of {rectangle.Area}");
+
+
+
+public class Rectangle
+{
+    private int height;
+    private int width;
+    
+
+    public int Height {
+        get => height;
+        set => height=value;
+        }
+
+    public int Width
+    {
+        get => width;
+        set => width=value;
+    }
+
+    public int Area
+    {
+        get => width*height;
+    }
+
+    public Rectangle(int height, int width) {
+        this.height = height;
+        this.width = width;
+    }
+
+}
+
+Player player = new Player();
+player.Damage();
+
+public class Player {
+    public int health=100;
+    public void Damage() {
+        while(health!=0) {
+            Console.ReadKey(false);
+            health-=5;
+            System.Console.WriteLine(health);
+        }
+    }
+}
+

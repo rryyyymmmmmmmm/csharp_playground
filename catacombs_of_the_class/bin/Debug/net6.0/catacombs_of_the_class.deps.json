@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "catacombs_of_the_class/1.0.0": {
+        "runtime": {
+          "catacombs_of_the_class.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "catacombs_of_the_class/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

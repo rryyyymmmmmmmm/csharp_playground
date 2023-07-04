@@ -1,0 +1,80 @@
+ConsoleKeyInfo Key;
+int arrowHeadInt, arrowFletching;
+float arrowShaft;
+
+
+do {
+    
+    System.Console.WriteLine("Hello and welcome to the arrows shop! Here are the arrows we have available and their price : ");
+    System.Console.WriteLine("\nArrow Heads : \n1- Steel : 10 gold\n2- Wood : 3 gold \n3- Obsidian : 5 gold");
+    System.Console.WriteLine("\nArrow Shafts : Starting at 60cm with " + 0.05*60 + " gold for 60cm up to 100cm, 0.05 gold for each cm added");
+    System.Console.WriteLine("\nArrow Fletching : \n1- Plastic : 10 gold\n2- Turkey Feathers : 5 gold \n3- Goose Feathers : 3 gold");
+    
+    do{
+    System.Console.WriteLine("What type of arrow head would you like (1, 2 or 3) ? : ");
+    arrowHeadInt = Convert.ToInt32(Console.ReadLine());
+    } while(arrowHeadInt<1 || arrowHeadInt>3);
+
+    do{
+    System.Console.WriteLine("How long an arrow shaft would you like (between 60 to 100cm) ? : ");
+    arrowShaft = Convert.ToInt32(Console.ReadLine());
+    } while(arrowShaft<60 || arrowShaft>100);
+
+    do{
+    System.Console.WriteLine("What type of arrow fletching would you like (1, 2 or 3) ? : ");
+    arrowFletching = Convert.ToInt32(Console.ReadLine());
+    } while(arrowFletching<1 || arrowFletching>3);
+
+    Arrow arrow = new Arrow {_ArrowHead = (ArrowHead)arrowHeadInt, _Shaft = arrowShaft, _Fletching = (Fletching)arrowFletching};
+
+    System.Console.WriteLine($"Alright then! Crafting you a beautiful {arrow._Shaft} cm long, {arrow._ArrowHead} headed and {arrow._Fletching} fletching arrow!");
+    System.Console.WriteLine("The price will be " + arrow.getCost() + " gold.");
+    System.Console.WriteLine("Press SPACEBAR when you're finished for today.");
+
+    Key = Console.ReadKey(false);
+    Console.Clear();
+
+} while(Key.Key!=ConsoleKey.Spacebar);
+Environment.Exit(0);
+    
+class Arrow {
+
+    //private ArrowHead arrowHead;
+    public ArrowHead _ArrowHead {get; init;}
+    //private float shaft;
+    public float _Shaft {get; init;}
+    //private Fletching fletching;
+    public Fletching _Fletching {get; init;}
+
+    /*public Arrow(ArrowHead arrowHead, float shaft, Fletching fletching) {
+        this.arrowHead = arrowHead;
+        this.shaft = shaft;
+        this.fletching = fletching;
+    }*/
+    public float getCost() {
+        float cost=0;
+        switch (_ArrowHead) {
+            case ArrowHead.Steel : cost+=10;
+            break;
+            case ArrowHead.Obsidian : cost+=5;
+            break;
+            case ArrowHead.Wood : cost+=3;
+            break;
+        }
+        //_Arrow.shaft condition {
+            cost=cost+_Shaft*0.05f;
+        //}
+
+        switch (_Fletching) {
+            case Fletching.Plastic : cost+=10;
+            break;
+            case Fletching.TurkeyFeather : cost+=5;
+            break;
+            case Fletching.GooseFeather : cost+=3;
+            break;
+        }
+        return cost;
+    }
+}
+enum ArrowHead{Steel=1, Wood=2, Obsidian=3};
+enum Fletching{Plastic=1, TurkeyFeather=2, GooseFeather=3};

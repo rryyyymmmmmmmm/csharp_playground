@@ -1,0 +1,15 @@
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\bin\Debug\net6.0\catacombs_of_the_class.exe
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\bin\Debug\net6.0\catacombs_of_the_class.deps.json
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\bin\Debug\net6.0\catacombs_of_the_class.runtimeconfig.json
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\bin\Debug\net6.0\catacombs_of_the_class.dll
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\bin\Debug\net6.0\catacombs_of_the_class.pdb
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.csproj.AssemblyReference.cache
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.AssemblyInfoInputs.cache
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.AssemblyInfo.cs
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.csproj.CoreCompileInputs.cache
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.dll
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\refint\catacombs_of_the_class.dll
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.pdb
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\catacombs_of_the_class.genruntimeconfig.cache
+C:\Users\rymle\Documents\csharping\catacombs_of_the_class\obj\Debug\net6.0\ref\catacombs_of_the_class.dll

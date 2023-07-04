@@ -1,0 +1,10 @@
+Console.WriteLine("Hello, World!");
+        GameWindowSettings gws = GameWindowSettings.Default;
+        NativeWindowSettings nws = NativeWindowSettings.Default;
+        GameWindow window = new GameWindow(gws, nws );
+        gws.RenderFrequency = 60;
+        gws.UpdateFrequency = 60;
+        nws.Size = new Vector2i(1280, 720);
+        nws.Title = "Rock!!";
+
+        window.Run();
