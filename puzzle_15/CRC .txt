@@ -1,0 +1,12 @@
+tile :
+	- number it contains (from 1 to 15)
+	- position (x, y)
+
+board : 
+	- a matrix of tiles ( tile[4][4] , will be refered to with (x, y))
+	# construtor that loads the tiles (var board = new tiles[4][4])
+	# function to randomly place a tile in a (x, y)
+	and assign the position to that tile.
+	# change placement of a tile (shift it x-1, x+1, y-1 or y+1 where =< 4
+	# track number of changes to that board
+

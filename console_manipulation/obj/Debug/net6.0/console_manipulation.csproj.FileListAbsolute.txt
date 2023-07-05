@@ -1,0 +1,15 @@
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\bin\Debug\net6.0\console_manipulation.exe
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\bin\Debug\net6.0\console_manipulation.deps.json
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\bin\Debug\net6.0\console_manipulation.runtimeconfig.json
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\bin\Debug\net6.0\console_manipulation.dll
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\bin\Debug\net6.0\console_manipulation.pdb
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.csproj.AssemblyReference.cache
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.AssemblyInfoInputs.cache
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.AssemblyInfo.cs
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.csproj.CoreCompileInputs.cache
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.dll
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\refint\console_manipulation.dll
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.pdb
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\console_manipulation.genruntimeconfig.cache
+C:\Users\rymle\Documents\csharping\csharp_playground\console_manipulation\obj\Debug\net6.0\ref\console_manipulation.dll
